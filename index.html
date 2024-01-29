@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Party</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Events</h1>
+    <form id="addEvent">
+      <label>
+        Name
+        <input type="text" name="name" />
+      </label>
+      <label>
+        Description
+        <input type="text" name="description" />
+      </label>
+      <label>
+        Date
+        <input type="date" name="date" />
+      </label>
+      <label>
+        Location
+        <input type="text" name="location" />
+      </label>
+      <button id="submit">Add Event</button>
+    </form>
+    <ul id="events"></ul>
+    <script src="index.js"></script>
+  </body>
 </html>
